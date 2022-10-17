@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>基本信息填写</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="wrapper">
+
+        <div class="header">
+            <img src="images/xinghan1.png"/></a>
+        </div>
+
+        <div class="main">
+
+            <div class="text">
+                
+                <h1>基本信息填写</h1>
+                <form action="jichuxinxi.php" method="POST">
+                    <table>
+                        <tr>
+                            <td>用户名：</td>
+                            <td><input type="text" name="username" placeholder="请输入用户名"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>是否为杭电学生？</td>
+                            <td><input type="radio" name="choose" id="yes"><label for="yes">是</label>
+                    <input type="radio" name="choose" id="no"><label for="no">否</label>（若为否，则无需填写学号）</td>
+                        </tr>
+                        <tr>
+                            <td>学号：</td>
+                            <td><input type="text" name="usernum" placeholder="请输入学号"></td>
+                        </tr>
+                        <tr>
+                            <td>学院：</td>
+                            <td><select>
+                                    <option selected="selected">--请选择--</option>
+                                    <option>计算机学院</option>
+                                    <option>网安学院</option>
+                                    <option>圣光机学院</option>
+                                    <option>会计学院</option>
+                                    <option>材环学院</option>
+                                    <option>非本校</option>
+                                    <option>其他</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td><input type="radio" name="sex" id="man"><label for="man">男</label>
+                    <input type="radio" name="sex" id="woman"><label for="woman">女</label></td>
+                        </tr>
+                        <tr>
+                            <td>出生年代：</td>
+                            <td><select>
+                                    <option selected="selected">--请选择--</option>
+                                    <option>60后</option>
+                                    <option>70后</option>
+                                    <option>80后</option>
+                                    <option>90后</option>
+                                    <option>00后</option>
+                                    <option>10后</option>
+                                    <option>20后</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>是否爱好追剧：</td>
+                            <td><input type="radio" name="choose" id="yes"><label for="yes">是</label>
+                                <input class="radio_type" type="radio" name="choose" id="no"><label for="no">否</label></td>
+                        </tr>
+                        <tr>
+                            <td>喜欢追剧的类型：</td>
+                            <td><input type="checkbox" name="love">穿越剧
+                                <input type="checkbox" name="love">穿越剧
+                                <input type="checkbox" name="love">古装剧
+                                <input type="checkbox" name="love">战争剧
+                                <input type="checkbox" name="love">恋爱剧
+                                <input type="checkbox" name="love">其他
+                                <input type="checkbox" name="love">无
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="上传基本信息">
+                </form>
+                <a href="星汉灿烂.html">已经迫不及待看网页啦！</a>
+            </div>
+        </div>
+
+        <div class="footer">
+			Copyright @ 2022 xinghan.com All Rights Reserved. 星汉灿网 版权所有
+		</div>
+        
+    </div>
+
+</div>
+    
+</body>
+</html>
