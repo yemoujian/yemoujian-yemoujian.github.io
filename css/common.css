@@ -1,0 +1,323 @@
+*{margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html body{font-size:12px;
+    font-family:"Microsoft YaHei";
+    color:#333;
+}
+
+.container{float:left;
+    width:100%;
+    background-image:url(../images/background.jpg);
+}
+
+.wrapper{width:1000px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.header{float:left;
+    width:1000px;
+}
+.header img{float:left;
+    width:1000px;
+}
+
+.nav{float:left;
+    width:1000px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    font-weight:bold;
+    background-color:#cd9a2b;
+}
+.nav a{margin:0 145px 0 20px;
+    color:#fff;
+}
+.nav a:nth-last-child(1){margin-right:0;
+}
+.nav a:hover {
+    background-color: #cd512b;
+}
+
+.rightnav{
+    background: #cd9a2b;
+    color: #ffffff;
+    overflow: hidden;
+    z-index: 9999;
+    position: fixed;
+    padding: 5px;
+    text-align: center;
+    width: 175px;
+    height: auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    right: 100px;
+    top: 10%;
+}
+.rightnav ul{
+list-style-type:none;
+    margin:0;
+    padding:0; 
+    }
+.rightnav a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}
+a:hover,a:active{
+    background-color:#cd512b;  
+}
+
+.main{float:left;
+    width:1000px;
+    padding-bottom:20px;
+    background-color:#fff;
+}
+
+.focus{float:left;
+    width:960px;
+    height:380px;
+    margin:20px 0 15px 20px;
+}
+.focus img{float:left;
+    width:960px;
+    height:380px;
+}
+
+.text{float:left;
+    width:1000px;
+    padding-bottom:10px;
+}
+.text h1{float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    font-weight:bold;
+    color:#cd9a2b;
+    text-align:center;
+}
+.text h2{float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    font-weight:bold;
+    color:#cd9a2b;
+    text-align:center;
+}
+.text ul{width:auto;
+    height:50px;
+    line-height:50px;
+    padding:10px 25px;
+    list-style:none;
+}
+.text li{
+    float:left;
+    margin-right:auto;
+    width: 100px;
+    height:30px;
+    line-height:30px;
+    font-size:16px;
+    font-weight:bold;
+    color:#cd9a2b;
+    text-align:center;
+}
+.text p{float:left;
+    width:900px;
+    line-height:27px;
+    margin-left:50px;
+    font-size:13px;
+    text-indent:25px;
+}
+.text img{float:left;
+    width:900px;
+    margin:20px 0 10px 50px;
+}
+
+.person{float:left;
+    width:1000px;
+    padding-bottom:10px;
+}
+.person h1{float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    color:#cd9a2b;
+    text-align:center;
+}
+.person article{float:left;
+    width:470px;
+    margin:20px 0 0 20px;
+}
+.person article img{float:left;
+    width:120px;
+    height:170px;
+    margin:18px 0 0 20px;
+    border:1px solid #f1f1f1;
+}
+.person article h2{float:left;
+    width:290px;
+    height:25px;
+    line-height:25px;
+    margin:15px 0 0 20px;
+}
+.person article p{float:left;
+    width:290px;
+    line-height:25px;
+    margin-left:20px;
+}
+
+.highlight{float:left;
+    width:1000px;
+    padding-bottom:10px;
+}
+.highlight h1{float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    color:#cd9a2b;
+    text-align:center;
+}
+.highlight video{margin:20px 0 10px 50px;
+    width: 900px;
+    height: 700px;
+}
+.highlight p{float:left;
+    width:900px;
+    line-height:27px;
+    margin-left:50px;
+    font-size:13px;
+    text-indent:25px;
+}
+.highlight h2{float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    color:#cd9a2b;
+    text-align:center;
+}
+
+.about{float:left;
+    width:1000px;
+    padding-bottom:10px;
+}
+.about h1{float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    color:#cd9a2b;
+    text-align:center;
+}
+.about table{width: 70%;
+    height: 100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+input[type=submit] {
+    background-color: #cd9a2b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover {
+    background-color: #cd512b;
+}
+
+table{ margin-right: auto;margin-left: auto;
+}
+
+.footer{float:left;
+    width:1000px;
+    height:80px;
+    line-height:80px;
+    color:#fff;text-align:center;
+    background-color:#cd9a2b;
+}
+
+a.pos_fixed
+{
+	position:fixed;
+	bottom: 50px;
+    right: 0%;
+    text-align: center;
+    width: 125px;
+    line-height:40px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size:15px;font-weight:bold;
+    margin:0 auto;color:#fff;
+    background-color:#cd9a2b
+}
+a.pos_fixed:hover{
+    background-color:#cd512b;
+}
+
+.add{
+    background: #cd6c2b;
+    color: #ffffff;
+    overflow: hidden;
+    z-index: 9999;
+    position: fixed;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    left: 100px;
+    top: 10%;
+}
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: "思源宋体 CN VF Regular";src: url("//at.alicdn.com/wf/webfont/7zsrHxNXgPxv/zstjBvD-dyBS3NRjuax_r.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/7zsrHxNXgPxv/p2Cd6zuOsc7XnrtVb_IOT.woff") format("woff");
+    font-display: swap;
+  }
+
+  
+  .web-font{
+      font-family:"webfont" !important;
+      font-size:12px;font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+  }
+
