@@ -263,7 +263,8 @@ table{ margin-right: auto;margin-left: auto;
     width:1000px;
     height:80px;
     line-height:80px;
-    color:#fff;text-align:center;
+    color:#fff;
+    text-align:center;
     background-color:#cd9a2b;
 }
 
@@ -320,4 +321,3 @@ a.pos_fixed:hover{
       -webkit-text-stroke-width: 0.2px;
       -moz-osx-font-smoothing: grayscale;
   }
-
