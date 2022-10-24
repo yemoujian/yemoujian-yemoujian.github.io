@@ -306,6 +306,11 @@ a.pos_fixed:hover{
     top: 10%;
 }
 
+.css32af1d92a424b94{
+    font-size:200px;
+    color:#cd9a2b;
+    text-align:center;
+}
 /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
     font-family: "思源宋体 CN VF Regular";src: url("//at.alicdn.com/wf/webfont/7zsrHxNXgPxv/zstjBvD-dyBS3NRjuax_r.woff2") format("woff2"),
