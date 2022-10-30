@@ -4,7 +4,8 @@
     <title>星汉灿烂介绍</title>
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
-    <link href='http://cdn.repository.webfont.com/webfonts/nomal/150420/45803/6356842bf629d800b0a56f0e.css' rel='stylesheet' type='text/css' />
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/rotation_chart.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 
@@ -27,7 +28,19 @@
         </div>
 
         <div class="main">
-            <div class="css32af1d92a424b94" >星汉灿烂</div>
+
+            <div class="focus">
+                <ul>
+                    <li><img src="images/不疑少商望月.jpg"></li>
+                    <li><img src="images/少商回眸.jpg"></li>
+                    <li><img src="images/楼垚少商成亲.jpg"></li>
+                    <li><img src="images/不疑夸奖少商.jpg"></li>
+                </ul>
+                <ol>
+                </ol>
+                <span class="lb_l"><</span>
+                <span class="lb_r">></span>
+            </div>
 
             <div class="text">
                 <h1>首页</h1>
@@ -49,4 +62,12 @@
 </div>
 
 </body>
+<script>
+    var focusWidth = 960; // 轮播图的宽
+    var focusHeight = 427.5; // 轮播图的高
+    var focusOlLeft = 455; // 小点距左边框距离
+    var focusOlTop = 5; // 小点距下边框距离
+    var rotation_Speed = 3000; // 轮播图自动播放速度 毫秒
+    setRotation(focusWidth, focusHeight, focusOlLeft, focusOlTop, shuffingSpeed);
+</script>
 </html>
