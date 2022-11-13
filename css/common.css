@@ -282,7 +282,7 @@ a.pos_fixed
     border-top-right-radius: 4px;
     font-size:15px;font-weight:bold;
     margin:0 auto;color:#fff;
-    background-color:#cd9a2b
+    background-color:#cd9a2b;
 }
 a.pos_fixed:hover{
     background-color:#cd512b;
@@ -307,16 +307,15 @@ a.pos_fixed:hover{
 }
 
 .list table{
-    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-td{
+.list td{
     width: 100px;
     height: 30px;
     line-height: 30px;
     text-align: center;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    border: 1px solid #cd9a2b;
     font-size: 15px;
 }
 
@@ -336,15 +335,10 @@ td{
     width: 300px;
     height: 300px;
     padding: 30px 15px;
-    background: rgba(175, 175, 175, 0.655);
+    background: #cd9a2b;
     border-radius: 30px;
 }
 
-.css32af1d92a424b94{
-    font-size:200px;
-    color:#cd9a2b;
-    text-align:center;
-}
 /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
     font-family: "思源宋体 CN VF Regular";src: url("//at.alicdn.com/wf/webfont/7zsrHxNXgPxv/zstjBvD-dyBS3NRjuax_r.woff2") format("woff2"),
