@@ -338,6 +338,31 @@ a.pos_fixed:hover{
     background: #cd9a2b;
     border-radius: 30px;
 }
+.discussion textarea{
+    margin-left:15%;
+    resize:vertical;
+    max-height: 100px;
+    min-height: auto;
+    width:200px;
+}
+
+.discussion h3{
+    margin-left:10%;
+    float:left;
+    width:1000px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    font-size:16px;
+    color:#cd9a2b;
+}
+.discussion hr{
+    float:left;
+    border: 1px solid;
+    border-color:#cd9a2b;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 /* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
