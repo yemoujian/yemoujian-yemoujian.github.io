@@ -386,7 +386,7 @@ a.pos_fixed:hover{
     height: 30px; 
     background-color: #d3a542; 
     border-radius: 4px; } 
-p{text-align: right;} 
+.discussion p{text-align: right;} 
 #neirong{ 
     background-color: rgb(255, 243, 80); 
     border: 1px solid burlywood; }
