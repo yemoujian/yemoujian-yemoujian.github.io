@@ -378,13 +378,13 @@ a.pos_fixed:hover{
 #btn_1{ 
     width: 60px; 
     height: 30px; 
-    background-color: cornflowerblue; 
+    background-color: rgb(237, 205, 100); 
     outline: none; } 
 ::placeholder{ font-size: 24px; } 
 #btn_2{ 
     width: 80px; 
     height: 30px; 
-    background-color: #d3a542; 
+    background-color: #cd9a2b; 
     border-radius: 4px; } 
 .discussion p{text-align: right;} 
 #neirong{ 
