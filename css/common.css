@@ -365,6 +365,7 @@ a.pos_fixed:hover{
 }
 
 #box{ 
+    float:left;
  } 
 #fabu{ 
  } 
