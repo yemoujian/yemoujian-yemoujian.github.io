@@ -225,10 +225,13 @@ a:hover,a:active{
     color:#cd9a2b;
     text-align:center;
 }
-.about table{width: 70%;
+.about table{
+    width: 70%;
     height: 100px;
+    font-size:13px;
+    line-height:30px;
 }
-
+.about table tr td:first-child,table tr td:first-child{width:120px;}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -253,6 +256,20 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
+    background-color: #cd512b;
+}
+
+#advice {
+    background-color: #cd9a2b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+#advice:hover {
     background-color: #cd512b;
 }
 
@@ -367,8 +384,8 @@ a.pos_fixed:hover{
 #box{ 
     float:left;
  } 
-#fabu{ 
- } 
+/* #fabu{ 
+ }  */
 #pinlun{ width: 600px; 
         background-color: aqua; } 
 .discussion textarea{ 
@@ -407,7 +424,7 @@ a.pos_fixed:hover{
       -webkit-text-stroke-width: 0.2px;
       -moz-osx-font-smoothing: grayscale;
   }
-  
+
   .black_overlay {
     display: none;
     position: absolute;
